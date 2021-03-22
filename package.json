@@ -6,12 +6,18 @@
   "scripts": {
     "dev": "nodemon --config nodemon.json src/index.ts",
     "task1": "nodemon --config nodemon.json src/homework1/task1.1/index.ts",
-    "task2": "nodemon --config nodemon.json src/homework1/task1.2/index.ts"
+    "task2": "nodemon --config nodemon.json src/homework1/task1.2/index.ts",
+    "task3_1": "babel-node -- src/homework1/task1.3/task1.js",
+    "task3_2": "babel-node -- src/homework1/task1.3/task2.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/node": "^7.10.5",
     "@types/node": "^14.14.35",
     "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
