@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src --fix",
     "dev": "nodemon --config nodemon.json src/index.ts",
     "task1": "nodemon --config nodemon.json src/homework1/task1.1/index.ts",
     "task2": "nodemon --config nodemon.json src/homework1/task1.2/index.ts",
@@ -16,9 +17,17 @@
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
-    "@babel/preset-env": "^7.13.12",
     "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.13.12",
     "@types/node": "^14.14.35",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"

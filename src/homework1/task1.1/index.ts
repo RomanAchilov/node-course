@@ -10,3 +10,6 @@ read.on('line', (line: string) => {
   const output = line.split('').reverse().join('') + '\n';
   process.stdout.write(output);
 });
+
+var a;
+
