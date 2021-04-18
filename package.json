@@ -5,12 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src --fix",
-    "dev": "nodemon --config nodemon.json src/index.ts",
-    "task1": "nodemon --config nodemon.json src/homework1/task1.1/index.ts",
-    "task2": "nodemon --config nodemon.json src/homework1/task1.2/index.ts",
-    "task3_1": "babel-node -- src/homework1/task1.3/task1.js",
-    "task3_2": "babel-node -- src/homework1/task1.3/task2.js",
-    "homework2": "nodemon —config nodemon.json src/homework2/index.ts"
+    "dev": "nodemon --config nodemon.json src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +17,7 @@
     "@babel/preset-env": "^7.13.12",
     "@types/express": "^4.17.11",
     "@types/node": "^14.14.35",
+    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "eslint": "^7.23.0",
@@ -36,6 +32,9 @@
   },
   "dependencies": {
     "csvtojson": "^2.0.10",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "joi": "^17.4.0",
+    "uuid": "^8.3.2"
   }
 }
