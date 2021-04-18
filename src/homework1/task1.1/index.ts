@@ -11,5 +11,3 @@ read.on('line', (line: string) => {
   process.stdout.write(output);
 });
 
-var a;
-
